@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2699331454506656886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2302838348637156864}
+  - component: {fileID: 8171235276264058154}
+  m_Layer: 0
+  m_Name: CSVLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2302838348637156864
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2699331454506656886}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.44847152, y: 0.0983444, z: -0.010675315}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8171235276264058154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2699331454506656886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5874dc4200a9e754998d3e4a9d4d09c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DungeonEggProbabilityData: DungeonEggProbabilityData
+  DungeonInfoData: DungeonInfoData
+  DungeonMonsterProbabilityData: DungeonMonsterProbabilityData
+  EggInfoData: EggInfoData
+  ItemInfoData: ItemInfoData
+  MonsterBaseStatData: MonsterBaseStatData
+  MonsterDropItemData: MonsterDropItemData
+  MonsterInfoData: MonsterInfoData
+  MonsterIVStatData: MonsterIVStatData
+  MonsterLevelStatData: MonsterLevelStatData
+  MonsterLevelUpData: MonsterLevelUpData
+  MonsterRankStatData: MonsterRankStatData
+  MonsterSkillInfoData: MonsterSkillInfoData
+  PlayerBaseStatData: PlayerBaseStatData
+  PlayerInfoData: PlayerInfoData
+  PlayerLevelStatData: PlayerLevelStatData
+  PlayerLevelUpData: PlayerLevelUpData

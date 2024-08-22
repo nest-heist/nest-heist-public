@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8766491362921337856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 755157656061528283}
+  - component: {fileID: 2398885000010635727}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &755157656061528283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8766491362921337856}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.9738798, y: 3.8770504, z: -9.546635}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2398885000010635727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8766491362921337856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42aef282800d1684294420b9dbb0bcad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioMixer: {fileID: 24100000, guid: f4fc04fcf0f6746448fab79f87c9c212, type: 2}
+  _bgmClips:
+  - {fileID: 8300000, guid: 05348619b2cc98e4b9849194dab3a3ba, type: 3}
+  - {fileID: 8300000, guid: 43c560d9bd89f474e8f367f88d6e9c9e, type: 3}
+  _sfxClips:
+  - {fileID: 8300000, guid: d1e8bd527f8a0e246a90eba87a50dca2, type: 3}
+  - {fileID: 8300000, guid: cc5fc8e746d041241820323e4162e68b, type: 3}
+  - {fileID: 8300000, guid: bb3c526d4c93a804ca7723b7b9e2d985, type: 3}
+  - {fileID: 8300000, guid: 366dbd0baa9a57a4d80ac844e4f946b3, type: 3}
+  - {fileID: 8300000, guid: ca3e7e7220219ba458dd024486f44239, type: 3}
+  - {fileID: 8300000, guid: 36849d048fd7ba046b8bd80d569c4b2e, type: 3}
+  _bgmPlayer: {fileID: 0}
+  _sfxPlayer: []

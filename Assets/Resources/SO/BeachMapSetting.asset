@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f59e7688ff1157d4281e499129593604, type: 3}
+  m_Name: BeachMapSetting
+  m_EditorClassIdentifier: 
+  GroundTile: {fileID: 11400000, guid: 05167018f6dfccd42b792f2d41ef879c, type: 2}
+  RoundGroundTile: {fileID: 11400000, guid: 41d0a46676c72c548985d723efe51313, type: 2}
+  TreePrefab: {fileID: 5317671417638419349, guid: 9f0aa58c38edf0841b0433ee62fabf7f, type: 3}
+  TeleportPrefab: {fileID: 8281752294992212069, guid: e593c3d01618ad14a8bd0f3b05b93461, type: 3}
+  MinRoomSize: 10
+  Padding: 7
+  PerlinNoiseMapSettings:
+    TreePrefab: {fileID: 5317671417638419349, guid: bbf92c59b94ca084eba0c4f341c6c94b, type: 3}
+    DecoTileBase: {fileID: 11400000, guid: 04cf6de0d61145847866b49e263f4114, type: 2}
+    ForestThreshold: 0.38
+    Magnification: 5

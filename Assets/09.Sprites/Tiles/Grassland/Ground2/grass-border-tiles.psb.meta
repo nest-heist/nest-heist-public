@@ -1,0 +1,1788 @@
+fileFormatVersion: 2
+guid: 0fab0b57f51e3c843aab89a8be2620b5
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 216
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData:
+  - name: Side Tile
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 216
+      height: 216
+    spriteID: 1238d76b360c8434487e5142f4b23f6e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -108, y: -108}
+      - {x: -108, y: 108}
+      - {x: 108, y: 108}
+      - {x: 108, y: -108}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 753, y: 1309}
+  - name: Reverse Filler Tile
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 216
+      width: 216
+      height: 216
+    spriteID: 8b65b2a8eaf5bbc4b8971c9cbea98970
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -108, y: -108}
+      - {x: -108, y: 108}
+      - {x: 108, y: 108}
+      - {x: 108, y: -108}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 216}
+    spritePosition: {x: 1300, y: 553}
+  - name: Corner Tile
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 432
+      width: 216
+      height: 216
+    spriteID: 2b550a6d0a93c0b41b3271e17d176dd2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -108, y: -108}
+      - {x: -108, y: 108}
+      - {x: 108, y: 108}
+      - {x: 108, y: -108}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 432}
+    spritePosition: {x: 1018, y: 1313}
+  - name: Filler Tile
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 648
+      width: 216
+      height: 216
+    spriteID: c939025bb9dec3b4580ec7ebcf9fb835
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -108, y: -108}
+      - {x: -108, y: 108}
+      - {x: 108, y: 108}
+      - {x: 108, y: -108}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 648}
+    spritePosition: {x: 753, y: 1011}
+  - name: Inner Corner
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 0
+      width: 216
+      height: 216
+    spriteID: bf553a2a2811b6e42a7c11da003d0352
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -108, y: -108}
+      - {x: -108, y: 108}
+      - {x: 108, y: 108}
+      - {x: 108, y: -108}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 216, y: 0}
+    spritePosition: {x: 1018, y: 1011}
+  rigSpriteImportData:
+  - name: Side Tile
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 216
+      height: 216
+    spriteID: 36587123a9dc6874ea927a441fe47a31
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 753, y: 1309}
+  - name: Reverse Filler Tile
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 228
+      width: 216
+      height: 216
+    spriteID: 2e9d666e0db5ceb4e925f6af8182ef54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 228}
+    spritePosition: {x: 1300, y: 553}
+  - name: Corner Tile
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 452
+      width: 216
+      height: 216
+    spriteID: a4679e4e513f54d49988d231d73a352b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 452}
+    spritePosition: {x: 1018, y: 1313}
+  - name: Filler Tile
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 676
+      width: 216
+      height: 216
+    spriteID: 27de9a345641d6846b01c70b027d5dfb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 676}
+    spritePosition: {x: 753, y: 1011}
+  - name: Inner Corner
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 228
+      y: 4
+      width: 216
+      height: 216
+    spriteID: f3ced43696c5a384f97f62fbac9baf47
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 228, y: 4}
+    spritePosition: {x: 1018, y: 1011}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 0
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  padding: 0
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers:
+  - name: Side Tile
+    spriteName: Side Tile
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1238d76b360c8434487e5142f4b23f6e
+    layerID: 197
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Reverse Filler Tile
+    spriteName: Reverse Filler Tile
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8b65b2a8eaf5bbc4b8971c9cbea98970
+    layerID: 338
+    mosaicPosition: {x: 0, y: 216}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Corner Tile
+    spriteName: Corner Tile
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2b550a6d0a93c0b41b3271e17d176dd2
+    layerID: 198
+    mosaicPosition: {x: 0, y: 432}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Filler Tile
+    spriteName: Filler Tile
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c939025bb9dec3b4580ec7ebcf9fb835
+    layerID: 199
+    mosaicPosition: {x: 0, y: 648}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Corner
+    spriteName: Inner Corner
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bf553a2a2811b6e42a7c11da003d0352
+    layerID: 153
+    mosaicPosition: {x: 216, y: 0}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Text
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 78
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Brackeys Tileset Template
+    spriteName: 
+    isGroup: 1
+    parentIndex: 5
+    spriteID: 00000000000000000000000000000000
+    layerID: 96
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 'This is a tileset. Open individual tiles by double clicking on '
+    spriteName: 
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 00000000000000000000000000000000
+    layerID: 75
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Tileset Template
+    spriteName: 
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 00000000000000000000000000000000
+    layerID: 95
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: by BRACKEYS
+    spriteName: 
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 00000000000000000000000000000000
+    layerID: 94
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: (INNER)
+    spriteName: 
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 00000000000000000000000000000000
+    layerID: 155
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CORNER
+    spriteName: 
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 00000000000000000000000000000000
+    layerID: 154
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: FILLER
+    spriteName: 
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 00000000000000000000000000000000
+    layerID: 73
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CORNER
+    spriteName: 
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 00000000000000000000000000000000
+    layerID: 72
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CORNER TILING
+    spriteName: 
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 00000000000000000000000000000000
+    layerID: 93
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: SIDE TILING
+    spriteName: 
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 00000000000000000000000000000000
+    layerID: 83
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: SIDE
+    spriteName: 
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 00000000000000000000000000000000
+    layerID: 71
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: INNER ROUNDING
+    spriteName: 
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 00000000000000000000000000000000
+    layerID: 152
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: OUTER ROUNDING
+    spriteName: 
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 00000000000000000000000000000000
+    layerID: 70
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Examples
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 76
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Corner Tile \uBCF5\uC0AC"
+    spriteName: "Corner Tile \uBCF5\uC0AC"
+    isGroup: 0
+    parentIndex: 19
+    spriteID: 2a01a861f4c4b55499fbdd223e4e6e7b
+    layerID: 339
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Inner Rounding
+    spriteName: 
+    isGroup: 1
+    parentIndex: 19
+    spriteID: 00000000000000000000000000000000
+    layerID: 139
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Inner Corner Tile
+    spriteName: Inner Corner Tile
+    isGroup: 0
+    parentIndex: 21
+    spriteID: ded5eb43c633b4f468e5ac2528af3f53
+    layerID: 151
+    mosaicPosition: {x: 4, y: 228}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Inner Corner Tile
+    spriteName: Inner Corner Tile
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 49a8baf58b523a749b560ebfd5cbb19d
+    layerID: 148
+    mosaicPosition: {x: 4, y: 452}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Inner Corner Tile
+    spriteName: Inner Corner Tile
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 52ddc92baf278454daac4932277f9daa
+    layerID: 138
+    mosaicPosition: {x: 4, y: 676}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Inner Corner Tile
+    spriteName: Inner Corner Tile
+    isGroup: 0
+    parentIndex: 21
+    spriteID: ccdd993ced720f747a646e3f0fb62329
+    layerID: 135
+    mosaicPosition: {x: 228, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile copy 10
+    spriteName: Side Tile copy 10
+    isGroup: 0
+    parentIndex: 21
+    spriteID: f353c2d7ac326ee4c8a4c8fdb0bdda79
+    layerID: 252
+    mosaicPosition: {x: 228, y: 228}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile copy 9
+    spriteName: Side Tile copy 9
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 6096ab137005bd24397da11ceae6d344
+    layerID: 251
+    mosaicPosition: {x: 228, y: 452}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile copy 8
+    spriteName: Side Tile copy 8
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 14d61d6f271bb6a469ab734d3f19439e
+    layerID: 250
+    mosaicPosition: {x: 228, y: 676}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile copy 7
+    spriteName: Side Tile copy 7
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 62e5564b908a46f4b8267b17d88027a2
+    layerID: 249
+    mosaicPosition: {x: 452, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Outer Rounding
+    spriteName: 
+    isGroup: 1
+    parentIndex: 19
+    spriteID: 00000000000000000000000000000000
+    layerID: 100
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Filler Tile
+    spriteName: Filler Tile
+    isGroup: 0
+    parentIndex: 30
+    spriteID: 734d433f622fbdd49aa95c7aca1f50e3
+    layerID: 61
+    mosaicPosition: {x: 452, y: 228}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Corner Tile copy 3
+    spriteName: Corner Tile copy 3
+    isGroup: 0
+    parentIndex: 30
+    spriteID: dbebf7e8349541e4ab5f00a25dc3d167
+    layerID: 60
+    mosaicPosition: {x: 452, y: 452}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Corner Tile copy 2
+    spriteName: Corner Tile copy 2
+    isGroup: 0
+    parentIndex: 30
+    spriteID: c0cee83c7c079704793eb52ae468055c
+    layerID: 59
+    mosaicPosition: {x: 452, y: 676}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile copy 3
+    spriteName: Side Tile copy 3
+    isGroup: 0
+    parentIndex: 30
+    spriteID: 7f093f71c5431084d96b867fb3f814ea
+    layerID: 58
+    mosaicPosition: {x: 452, y: 676}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Corner Tile copy
+    spriteName: Corner Tile copy
+    isGroup: 0
+    parentIndex: 30
+    spriteID: 529f6386a39813541b9ab3e8489bc212
+    layerID: 57
+    mosaicPosition: {x: 676, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Corner Tile
+    spriteName: Corner Tile
+    isGroup: 0
+    parentIndex: 30
+    spriteID: 84bf61a98746a4a49987327209e2b204
+    layerID: 55
+    mosaicPosition: {x: 676, y: 228}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile copy
+    spriteName: Side Tile copy
+    isGroup: 0
+    parentIndex: 30
+    spriteID: 45674e26ad82fbb4799dc2b2bd65336f
+    layerID: 54
+    mosaicPosition: {x: 676, y: 228}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile copy 2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 30
+    spriteID: 00000000000000000000000000000000
+    layerID: 56
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile
+    spriteName: 
+    isGroup: 0
+    parentIndex: 30
+    spriteID: 00000000000000000000000000000000
+    layerID: 52
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Corner Tiling
+    spriteName: 
+    isGroup: 1
+    parentIndex: 19
+    spriteID: 00000000000000000000000000000000
+    layerID: 91
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Corner Tile copy 7
+    spriteName: Corner Tile copy 7
+    isGroup: 0
+    parentIndex: 40
+    spriteID: 7d76ac85c0858824f9ee8a0839459681
+    layerID: 90
+    mosaicPosition: {x: 228, y: 900}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Corner Tile copy 6
+    spriteName: Corner Tile copy 6
+    isGroup: 0
+    parentIndex: 40
+    spriteID: 2fdab4018284b6349a3b8131a30965cc
+    layerID: 89
+    mosaicPosition: {x: 228, y: 1124}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Corner Tile copy 5
+    spriteName: Corner Tile copy 5
+    isGroup: 0
+    parentIndex: 40
+    spriteID: ff81844a08f097b4c92fbb4e528c0e22
+    layerID: 87
+    mosaicPosition: {x: 228, y: 1348}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Corner Tile copy 4
+    spriteName: Corner Tile copy 4
+    isGroup: 0
+    parentIndex: 40
+    spriteID: d6a477d60e90f0649bcd527b80c9bbbd
+    layerID: 84
+    mosaicPosition: {x: 228, y: 1572}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tiling
+    spriteName: 
+    isGroup: 1
+    parentIndex: 19
+    spriteID: 00000000000000000000000000000000
+    layerID: 85
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile copy 6
+    spriteName: Side Tile copy 6
+    isGroup: 0
+    parentIndex: 45
+    spriteID: c742e515b26dd0049bd570e0ee8fb72f
+    layerID: 82
+    mosaicPosition: {x: 676, y: 228}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile copy 5
+    spriteName: 
+    isGroup: 0
+    parentIndex: 45
+    spriteID: 00000000000000000000000000000000
+    layerID: 81
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile copy 4
+    spriteName: 
+    isGroup: 0
+    parentIndex: 45
+    spriteID: 00000000000000000000000000000000
+    layerID: 80
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Background
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 103
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pattern
+    spriteName: 
+    isGroup: 0
+    parentIndex: 49
+    spriteID: 00000000000000000000000000000000
+    layerID: 102
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Background
+    spriteName: 
+    isGroup: 0
+    parentIndex: 49
+    spriteID: 00000000000000000000000000000000
+    layerID: 63
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  rigPSDLayers:
+  - name: Side Tile
+    spriteName: Side Tile
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 36587123a9dc6874ea927a441fe47a31
+    layerID: 197
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Reverse Filler Tile
+    spriteName: Reverse Filler Tile
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2e9d666e0db5ceb4e925f6af8182ef54
+    layerID: 338
+    mosaicPosition: {x: 4, y: 228}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Corner Tile
+    spriteName: Corner Tile
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a4679e4e513f54d49988d231d73a352b
+    layerID: 198
+    mosaicPosition: {x: 4, y: 452}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Filler Tile
+    spriteName: Filler Tile
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 27de9a345641d6846b01c70b027d5dfb
+    layerID: 199
+    mosaicPosition: {x: 4, y: 676}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Corner
+    spriteName: Inner Corner
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f3ced43696c5a384f97f62fbac9baf47
+    layerID: 153
+    mosaicPosition: {x: 228, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Text
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: d87f870f77170c34095b31ba5ff8f410
+    layerID: 78
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Brackeys Tileset Template
+    spriteName: 
+    isGroup: 1
+    parentIndex: 5
+    spriteID: 9a05b59d49c95a8468e12a215d2b3fb7
+    layerID: 96
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 'This is a tileset. Open individual tiles by double clicking on '
+    spriteName: 'This is a tileset. Open individual tiles by double clicking on '
+    isGroup: 0
+    parentIndex: 6
+    spriteID: d4817dac63e88cf4199c38b6cdc22008
+    layerID: 75
+    mosaicPosition: {x: 4, y: 3170}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Tileset Template
+    spriteName: Tileset Template
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 1b7ad4caad568114ebebe17e9f38988d
+    layerID: 95
+    mosaicPosition: {x: 700, y: 3170}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: by BRACKEYS
+    spriteName: by BRACKEYS
+    isGroup: 0
+    parentIndex: 6
+    spriteID: e9928a25bc530fe449f518707b492293
+    layerID: 94
+    mosaicPosition: {x: 700, y: 3264}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: (INNER)
+    spriteName: (INNER)
+    isGroup: 0
+    parentIndex: 5
+    spriteID: d3fbb1e3bc3813b4db2fd60cebaad1bc
+    layerID: 155
+    mosaicPosition: {x: 1706, y: 3264}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CORNER
+    spriteName: CORNER
+    isGroup: 0
+    parentIndex: 5
+    spriteID: e9fd5541b1b5f824ab0fca93955638f4
+    layerID: 154
+    mosaicPosition: {x: 1197, y: 3264}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: FILLER
+    spriteName: FILLER
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 4427bd92222547d4f869935275a3b348
+    layerID: 73
+    mosaicPosition: {x: 1567, y: 3264}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CORNER
+    spriteName: CORNER
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 8364ce858cb1a8b4c8ce292e88101b4e
+    layerID: 72
+    mosaicPosition: {x: 1382, y: 3264}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CORNER TILING
+    spriteName: CORNER TILING
+    isGroup: 0
+    parentIndex: 5
+    spriteID: f98f210c47ad1a441a178a892e8e8966
+    layerID: 93
+    mosaicPosition: {x: 4, y: 3582}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: SIDE TILING
+    spriteName: SIDE TILING
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 9f61650c729307245bf6b23ac5a31cb8
+    layerID: 83
+    mosaicPosition: {x: 948, y: 3264}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: SIDE
+    spriteName: SIDE
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 7a75fb3b56b3f364cb9aeadc43cc3475
+    layerID: 71
+    mosaicPosition: {x: 1942, y: 3217}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: INNER ROUNDING
+    spriteName: INNER ROUNDING
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 20add38125a90ca41a9a558c8bac38b2
+    layerID: 152
+    mosaicPosition: {x: 1463, y: 3217}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: OUTER ROUNDING
+    spriteName: OUTER ROUNDING
+    isGroup: 0
+    parentIndex: 5
+    spriteID: d235a62282570014ab529ee12d451472
+    layerID: 70
+    mosaicPosition: {x: 1463, y: 3170}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Examples
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: db9d4e0a5c986b24e82b9c5622a64659
+    layerID: 76
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Corner Tile \uBCF5\uC0AC"
+    spriteName: "Corner Tile \uBCF5\uC0AC"
+    isGroup: 0
+    parentIndex: 19
+    spriteID: 9425b3c66de69984f9b62f597df1e391
+    layerID: 339
+    mosaicPosition: {x: 1587, y: 1124}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Inner Rounding
+    spriteName: 
+    isGroup: 1
+    parentIndex: 19
+    spriteID: 7e7d555a8c9fe8644a46003e2faf3bfa
+    layerID: 139
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Inner Corner Tile
+    spriteName: Inner Corner Tile
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 16dffe5f596726c459a0ffceeb973a19
+    layerID: 151
+    mosaicPosition: {x: 1587, y: 1348}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Inner Corner Tile
+    spriteName: Inner Corner Tile
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 1d2e84bf72970c94fb621d644a099a9e
+    layerID: 148
+    mosaicPosition: {x: 1811, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Inner Corner Tile
+    spriteName: Inner Corner Tile
+    isGroup: 0
+    parentIndex: 21
+    spriteID: cc26726347d6f3642a128467b4678768
+    layerID: 138
+    mosaicPosition: {x: 1811, y: 228}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Inner Corner Tile
+    spriteName: Inner Corner Tile
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 4620e002433bd064ab5a1e82de41d96d
+    layerID: 135
+    mosaicPosition: {x: 1811, y: 452}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile copy 10
+    spriteName: Side Tile copy 10
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 557c48fa84079124c82b39f6c56e4f7c
+    layerID: 252
+    mosaicPosition: {x: 1811, y: 676}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile copy 9
+    spriteName: Side Tile copy 9
+    isGroup: 0
+    parentIndex: 21
+    spriteID: cbb7d607db164d94aa5a75c20cff68a0
+    layerID: 251
+    mosaicPosition: {x: 1811, y: 900}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile copy 8
+    spriteName: Side Tile copy 8
+    isGroup: 0
+    parentIndex: 21
+    spriteID: e5d3609d78364c44691a2c6a023d0c01
+    layerID: 250
+    mosaicPosition: {x: 1811, y: 1124}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile copy 7
+    spriteName: Side Tile copy 7
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 663c7586500a8214b93fd366b1fc543a
+    layerID: 249
+    mosaicPosition: {x: 1811, y: 1348}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Outer Rounding
+    spriteName: 
+    isGroup: 1
+    parentIndex: 19
+    spriteID: c0cffb001f3661440a4c333b2dba0570
+    layerID: 100
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Filler Tile
+    spriteName: Filler Tile
+    isGroup: 0
+    parentIndex: 30
+    spriteID: 056818381e67efd44848fcbfcc878ffa
+    layerID: 61
+    mosaicPosition: {x: 1587, y: 1587}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Corner Tile copy 3
+    spriteName: Corner Tile copy 3
+    isGroup: 0
+    parentIndex: 30
+    spriteID: 03f8b0a6e986bf14f8d761d88f687021
+    layerID: 60
+    mosaicPosition: {x: 1587, y: 1811}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Corner Tile copy 2
+    spriteName: Corner Tile copy 2
+    isGroup: 0
+    parentIndex: 30
+    spriteID: 107719b61d743ff458260cb313dd62f3
+    layerID: 59
+    mosaicPosition: {x: 1587, y: 2035}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile copy 3
+    spriteName: Side Tile copy 3
+    isGroup: 0
+    parentIndex: 30
+    spriteID: 1ed0aa59b278d8445bcda039838a41e3
+    layerID: 58
+    mosaicPosition: {x: 1587, y: 2259}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Corner Tile copy
+    spriteName: Corner Tile copy
+    isGroup: 0
+    parentIndex: 30
+    spriteID: df83f5f50a2460d4da6cd2dd52aea330
+    layerID: 57
+    mosaicPosition: {x: 1587, y: 2483}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Corner Tile
+    spriteName: Corner Tile
+    isGroup: 0
+    parentIndex: 30
+    spriteID: 5c07da1740e013a4c948f0d12c20ef11
+    layerID: 55
+    mosaicPosition: {x: 1587, y: 2707}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile copy
+    spriteName: Side Tile copy
+    isGroup: 0
+    parentIndex: 30
+    spriteID: a3f4943b836491a49b5550e90a476021
+    layerID: 54
+    mosaicPosition: {x: 1587, y: 2931}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile copy 2
+    spriteName: Side Tile copy 2
+    isGroup: 0
+    parentIndex: 30
+    spriteID: e84274e21ffefff4f81040aa45945b03
+    layerID: 56
+    mosaicPosition: {x: 1811, y: 1587}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile
+    spriteName: Side Tile
+    isGroup: 0
+    parentIndex: 30
+    spriteID: 4fc319fbe32e47f46a6c05b8dbd0c658
+    layerID: 52
+    mosaicPosition: {x: 1811, y: 1811}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Corner Tiling
+    spriteName: 
+    isGroup: 1
+    parentIndex: 19
+    spriteID: 2fb86854a2e556a40aa3694d4462dc8c
+    layerID: 91
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Corner Tile copy 7
+    spriteName: Corner Tile copy 7
+    isGroup: 0
+    parentIndex: 40
+    spriteID: 1002b14a34760e5438737d0cddaa56a7
+    layerID: 90
+    mosaicPosition: {x: 1811, y: 2035}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Corner Tile copy 6
+    spriteName: Corner Tile copy 6
+    isGroup: 0
+    parentIndex: 40
+    spriteID: 10ac098d0c66f334490982c78ba8ae71
+    layerID: 89
+    mosaicPosition: {x: 1811, y: 2259}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Corner Tile copy 5
+    spriteName: Corner Tile copy 5
+    isGroup: 0
+    parentIndex: 40
+    spriteID: 25ff762d611575c448d792711cb9ad0c
+    layerID: 87
+    mosaicPosition: {x: 1811, y: 2483}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Corner Tile copy 4
+    spriteName: Corner Tile copy 4
+    isGroup: 0
+    parentIndex: 40
+    spriteID: 00f1c421ca8d24e4da0c79b4d0a2189d
+    layerID: 84
+    mosaicPosition: {x: 1811, y: 2707}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tiling
+    spriteName: 
+    isGroup: 1
+    parentIndex: 19
+    spriteID: 6ceeb118e28745640842f96e86710e11
+    layerID: 85
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile copy 6
+    spriteName: Side Tile copy 6
+    isGroup: 0
+    parentIndex: 45
+    spriteID: 9bfeb6b03b7b35346958518366e9cc3c
+    layerID: 82
+    mosaicPosition: {x: 1811, y: 2931}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile copy 5
+    spriteName: Side Tile copy 5
+    isGroup: 0
+    parentIndex: 45
+    spriteID: 675872b6b40c6574392686a8428e1cec
+    layerID: 81
+    mosaicPosition: {x: 4, y: 3358}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Side Tile copy 4
+    spriteName: Side Tile copy 4
+    isGroup: 0
+    parentIndex: 45
+    spriteID: 9b0c5d01fee32594e97b6df2e852b2b2
+    layerID: 80
+    mosaicPosition: {x: 228, y: 3358}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Background
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 6ac444a18ed64e04c86c1345465aed42
+    layerID: 103
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pattern
+    spriteName: Pattern
+    isGroup: 0
+    parentIndex: 49
+    spriteID: 5c1a97ddc53b35c43b4e690e4f81a293
+    layerID: 102
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Background
+    spriteName: Background
+    isGroup: 0
+    parentIndex: 49
+    spriteID: a6e893332d7ff1b4fb8dd6f935f40e52
+    layerID: 63
+    mosaicPosition: {x: 4, y: 1587}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting:
+  - spriteId: 00000000000000000000000000000000
+    name: Background
+    layerId: 103
+    flatten: 0
+    isGroup: 1
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: Pattern
+    layerId: 102
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: Background
+    layerId: 63
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: Examples
+    layerId: 76
+    flatten: 0
+    isGroup: 1
+    importLayer: 0
+  - spriteId: 2a01a861f4c4b55499fbdd223e4e6e7b
+    name: "Corner Tile \uBCF5\uC0AC"
+    layerId: 339
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: Inner Rounding
+    layerId: 139
+    flatten: 0
+    isGroup: 1
+    importLayer: 0
+  - spriteId: ded5eb43c633b4f468e5ac2528af3f53
+    name: Inner Corner Tile
+    layerId: 151
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 49a8baf58b523a749b560ebfd5cbb19d
+    name: Inner Corner Tile
+    layerId: 148
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 52ddc92baf278454daac4932277f9daa
+    name: Inner Corner Tile
+    layerId: 138
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: ccdd993ced720f747a646e3f0fb62329
+    name: Inner Corner Tile
+    layerId: 135
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: f353c2d7ac326ee4c8a4c8fdb0bdda79
+    name: Side Tile copy 10
+    layerId: 252
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 6096ab137005bd24397da11ceae6d344
+    name: Side Tile copy 9
+    layerId: 251
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 14d61d6f271bb6a469ab734d3f19439e
+    name: Side Tile copy 8
+    layerId: 250
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 62e5564b908a46f4b8267b17d88027a2
+    name: Side Tile copy 7
+    layerId: 249
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: Outer Rounding
+    layerId: 100
+    flatten: 0
+    isGroup: 1
+    importLayer: 0
+  - spriteId: 734d433f622fbdd49aa95c7aca1f50e3
+    name: Filler Tile
+    layerId: 61
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: dbebf7e8349541e4ab5f00a25dc3d167
+    name: Corner Tile copy 3
+    layerId: 60
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: c0cee83c7c079704793eb52ae468055c
+    name: Corner Tile copy 2
+    layerId: 59
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 7f093f71c5431084d96b867fb3f814ea
+    name: Side Tile copy 3
+    layerId: 58
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 529f6386a39813541b9ab3e8489bc212
+    name: Corner Tile copy
+    layerId: 57
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 84bf61a98746a4a49987327209e2b204
+    name: Corner Tile
+    layerId: 55
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 45674e26ad82fbb4799dc2b2bd65336f
+    name: Side Tile copy
+    layerId: 54
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: Side Tile copy 2
+    layerId: 56
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: Side Tile
+    layerId: 52
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: Corner Tiling
+    layerId: 91
+    flatten: 0
+    isGroup: 1
+    importLayer: 0
+  - spriteId: 7d76ac85c0858824f9ee8a0839459681
+    name: Corner Tile copy 7
+    layerId: 90
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 2fdab4018284b6349a3b8131a30965cc
+    name: Corner Tile copy 6
+    layerId: 89
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: ff81844a08f097b4c92fbb4e528c0e22
+    name: Corner Tile copy 5
+    layerId: 87
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: d6a477d60e90f0649bcd527b80c9bbbd
+    name: Corner Tile copy 4
+    layerId: 84
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: Side Tiling
+    layerId: 85
+    flatten: 0
+    isGroup: 1
+    importLayer: 0
+  - spriteId: c742e515b26dd0049bd570e0ee8fb72f
+    name: Side Tile copy 6
+    layerId: 82
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: Side Tile copy 5
+    layerId: 81
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: Side Tile copy 4
+    layerId: 80
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: Text
+    layerId: 78
+    flatten: 0
+    isGroup: 1
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: Brackeys Tileset Template
+    layerId: 96
+    flatten: 0
+    isGroup: 1
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: 'This is a tileset. Open individual tiles by double clicking on '
+    layerId: 75
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: Tileset Template
+    layerId: 95
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: by BRACKEYS
+    layerId: 94
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: (INNER)
+    layerId: 155
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: CORNER
+    layerId: 154
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: FILLER
+    layerId: 73
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: CORNER
+    layerId: 72
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: CORNER TILING
+    layerId: 93
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: SIDE TILING
+    layerId: 83
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: SIDE
+    layerId: 71
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: INNER ROUNDING
+    layerId: 152
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 00000000000000000000000000000000
+    name: OUTER ROUNDING
+    layerId: 70
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 1238d76b360c8434487e5142f4b23f6e
+    name: Side Tile
+    layerId: 197
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 8b65b2a8eaf5bbc4b8971c9cbea98970
+    name: Reverse Filler Tile
+    layerId: 338
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 2b550a6d0a93c0b41b3271e17d176dd2
+    name: Corner Tile
+    layerId: 198
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: c939025bb9dec3b4580ec7ebcf9fb835
+    name: Filler Tile
+    layerId: 199
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: bf553a2a2811b6e42a7c11da003d0352
+    name: Inner Corner
+    layerId: 153
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

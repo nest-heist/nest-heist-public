@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f59e7688ff1157d4281e499129593604, type: 3}
+  m_Name: GrasslandMapSetting
+  m_EditorClassIdentifier: 
+  GroundTile: {fileID: 11400000, guid: 25dacac13a80f7340958e48fae359cd2, type: 2}
+  RoundGroundTile: {fileID: 11400000, guid: c837b4976ed3ccf4bad8eae5ac69bbad, type: 2}
+  TreePrefab: {fileID: 5317671417638419349, guid: 0f25b213cc42376419dabf11b890c479, type: 3}
+  TeleportPrefab: {fileID: 8281752294992212069, guid: e593c3d01618ad14a8bd0f3b05b93461, type: 3}
+  MinRoomSize: 10
+  Padding: 7
+  PerlinNoiseMapSettings:
+    TreePrefab: {fileID: 5317671417638419349, guid: 6da1bcd912a6f314c9e2129a56b2ca6b, type: 3}
+    DecoTileBase: {fileID: 11400000, guid: 76cb96821dbe9a54883ac3523dccde1e, type: 2}
+    ForestThreshold: 0.38
+    Magnification: 5

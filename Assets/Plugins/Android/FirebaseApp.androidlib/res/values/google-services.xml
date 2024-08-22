@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_android_client_id,@string/default_web_client_id">
+  <string name="firebase_database_url" translatable="false">https://nest-heist-8ed15-default-rtdb.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">617696192829</string>
+  <string name="google_storage_bucket" translatable="false">nest-heist-8ed15.appspot.com</string>
+  <string name="project_id" translatable="false">nest-heist-8ed15</string>
+  <string name="google_api_key" translatable="false">AIzaSyBikW5OKuHfvyFfdJ-QAj08neGrUyra1zI</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBikW5OKuHfvyFfdJ-QAj08neGrUyra1zI</string>
+  <string name="google_app_id" translatable="false">1:617696192829:android:80ea20f8acaaa48263bd54</string>
+  <string name="default_android_client_id" translatable="false">617696192829-m8e689svkm7tqot6uu304163nchlgd71.apps.googleusercontent.com</string>
+  <string name="default_web_client_id" translatable="false">617696192829-rhg5it6j24lv4fegid6o9j7ak3l9occr.apps.googleusercontent.com</string>
+</resources>

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2630158511331371917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5214655917872353060}
+  - component: {fileID: 8041006306476345053}
+  m_Layer: 0
+  m_Name: 2_DungeonScene_PoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5214655917872353060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2630158511331371917}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8041006306476345053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2630158511331371917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77475f1207f8bf44e80343d5408537a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objectInfos:
+  - objectName: Hit
+    perfab: {fileID: 1269060166065924, guid: df888bd4c9fef3d45991d94fe26b4ac7, type: 3}
+    count: 100
+  - objectName: BaseAttack
+    perfab: {fileID: 1274793349893442, guid: a13b44bc80188de40933a639dba3362b, type: 3}
+    count: 100
+  - objectName: ITE00001
+    perfab: {fileID: 5272097580912085249, guid: 356ebc1c9660c0d4aa94fce95aa7e1fd, type: 3}
+    count: 50
+  - objectName: ITE00003
+    perfab: {fileID: 5272097580912085249, guid: 5dc3dd8bef2adab469df5a01792a91e8, type: 3}
+    count: 50

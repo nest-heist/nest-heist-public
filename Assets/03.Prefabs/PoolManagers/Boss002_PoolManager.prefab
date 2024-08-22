@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &989853940619836558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 159110770124424346}
+  - component: {fileID: 7869922892760500744}
+  m_Layer: 0
+  m_Name: Boss002_PoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &159110770124424346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989853940619836558}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.155145, y: -2.3418343, z: -0.97569275}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7869922892760500744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989853940619836558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77475f1207f8bf44e80343d5408537a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objectInfos:
+  - objectName: DownwardStrikeEffect
+    perfab: {fileID: 2679055083113713159, guid: cbd2bc3ed0a938441a89f876853fe793, type: 3}
+    count: 1
+  - objectName: Meteor
+    perfab: {fileID: 9158333684552012882, guid: 91ba859cfcbd54444b0af9536d15b58c, type: 3}
+    count: 50
+  - objectName: MeteorHitEffect
+    perfab: {fileID: 5338439344284175169, guid: 55122837b701b114b8e62107550521cf, type: 3}
+    count: 50
+  - objectName: CircleCastArea
+    perfab: {fileID: 1354815450275473341, guid: 3b1e12bf60a712b4fa170888b18955c2, type: 3}
+    count: 1
+  - objectName: MeteorCastArea
+    perfab: {fileID: 1354815450275473341, guid: 3b1e12bf60a712b4fa170888b18955c2, type: 3}
+    count: 50
+  - objectName: RangeAttackProjectile
+    perfab: {fileID: 6522688161224513994, guid: 7c5be3d0edf8aff498a220b5d277b24f, type: 3}
+    count: 4
+  - objectName: Hit
+    perfab: {fileID: 1269060166065924, guid: df888bd4c9fef3d45991d94fe26b4ac7, type: 3}
+    count: 10
+  - objectName: BaseAttack
+    perfab: {fileID: 1274793349893442, guid: a13b44bc80188de40933a639dba3362b, type: 3}
+    count: 10
